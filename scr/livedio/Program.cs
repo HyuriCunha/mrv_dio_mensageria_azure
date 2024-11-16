@@ -18,7 +18,7 @@ namespace livedio
             Console.WriteLine("Live Dio - Service Bus");
             Console.WriteLine("Digite 1: Para produzir mensagens na fila");
             Console.WriteLine("Digite 2: Para produzir mensagens no tópico");
-            Console.WriteLine("Digite 2: Para Leitura de mensagens");
+            Console.WriteLine("Digite 3: Para Leitura de mensagens");
             var resposta = Console.ReadLine();
 
             if (resposta == "1")
